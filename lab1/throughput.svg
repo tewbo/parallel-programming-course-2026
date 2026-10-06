@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="960" height="560" fill="#fcfcfb"/>
+<text x="80" y="30" font-size="18" font-weight="600" fill="#0b0b0b">Пропускная способность record() по реализациям</text>
+<text x="80" y="52" font-size="13" fill="#52514e">Медиана, млн операций/сек · логарифмическая шкала</text>
+<line x1="80" x2="670" y1="490.0" y2="490.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="494.0" font-size="12" fill="#8a8984" text-anchor="end">2</text>
+<line x1="80" x2="670" y1="428.1" y2="428.1" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="432.1" font-size="12" fill="#8a8984" text-anchor="end">5</text>
+<line x1="80" x2="670" y1="381.2" y2="381.2" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="385.2" font-size="12" fill="#8a8984" text-anchor="end">10</text>
+<line x1="80" x2="670" y1="334.4" y2="334.4" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="338.4" font-size="12" fill="#8a8984" text-anchor="end">20</text>
+<line x1="80" x2="670" y1="272.5" y2="272.5" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="276.5" font-size="12" fill="#8a8984" text-anchor="end">50</text>
+<line x1="80" x2="670" y1="225.6" y2="225.6" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="229.6" font-size="12" fill="#8a8984" text-anchor="end">100</text>
+<line x1="80" x2="670" y1="178.8" y2="178.8" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="182.8" font-size="12" fill="#8a8984" text-anchor="end">200</text>
+<line x1="80" x2="670" y1="116.8" y2="116.8" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="120.8" font-size="12" fill="#8a8984" text-anchor="end">500</text>
+<line x1="80" x2="670" y1="70.0" y2="70.0" stroke="#e6e5e0" stroke-width="1"/>
+<text x="70" y="74.0" font-size="12" fill="#8a8984" text-anchor="end">1000</text>
+<text x="80.0" y="512" font-size="12" fill="#8a8984" text-anchor="middle">1</text>
+<text x="227.5" y="512" font-size="12" fill="#8a8984" text-anchor="middle">2</text>
+<text x="375.0" y="512" font-size="12" fill="#8a8984" text-anchor="middle">4</text>
+<text x="522.5" y="512" font-size="12" fill="#8a8984" text-anchor="middle">8</text>
+<text x="670.0" y="512" font-size="12" fill="#8a8984" text-anchor="middle">16</text>
+<text x="375.0" y="538" font-size="13" fill="#52514e" text-anchor="middle">Число потоков</text>
+<line x1="80" x2="670" y1="182.7" y2="182.7" stroke="#52514e" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="662" y="200.7" font-size="12" fill="#52514e" text-anchor="end">Этап 0: однопоточный baseline · 188.6</text>
+<polyline points="80.0,237.8 227.5,190.2 375.0,143.5 522.5,118.8 670.0,99.2" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="80.0,280.3 227.5,233.3 375.0,186.2 522.5,157.6 670.0,133.4" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="80.0,335.4 227.5,435.2 375.0,450.3 522.5,436.7 670.0,443.2" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="80.0,334.4 227.5,456.2 375.0,435.2 522.5,467.3 670.0,469.7" fill="none" stroke="#eda100" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="80.0,357.5 227.5,435.2 375.0,446.6 522.5,441.5 670.0,439.9" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="80.0" cy="237.8" r="5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/>
+<circle cx="227.5" cy="190.2" r="5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/>
+<circle cx="375.0" cy="143.5" r="5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/>
+<circle cx="522.5" cy="118.8" r="5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/>
+<circle cx="670.0" cy="99.2" r="5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/>
+<rect x="75.0" y="275.3" width="10" height="10" rx="1.5" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/>
+<rect x="222.5" y="228.3" width="10" height="10" rx="1.5" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/>
+<rect x="370.0" y="181.2" width="10" height="10" rx="1.5" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/>
+<rect x="517.5" y="152.6" width="10" height="10" rx="1.5" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/>
+<rect x="665.0" y="128.4" width="10" height="10" rx="1.5" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/>
+<polygon points="80.0,329.2 86.2,340.4 73.8,340.4" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/>
+<polygon points="227.5,428.9 233.8,440.2 221.2,440.2" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/>
+<polygon points="375.0,444.0 381.2,455.3 368.8,455.3" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/>
+<polygon points="522.5,430.5 528.8,441.7 516.2,441.7" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/>
+<polygon points="670.0,436.9 676.2,448.2 663.8,448.2" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/>
+<polygon points="80.0,328.1 86.2,334.4 80.0,340.6 73.8,334.4" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/>
+<polygon points="227.5,449.9 233.8,456.2 227.5,462.4 221.2,456.2" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/>
+<polygon points="375.0,428.9 381.2,435.2 375.0,441.4 368.8,435.2" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/>
+<polygon points="522.5,461.0 528.8,467.3 522.5,473.5 516.2,467.3" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/>
+<polygon points="670.0,463.5 676.2,469.7 670.0,476.0 663.8,469.7" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/>
+<polygon points="80.0,363.8 86.2,352.5 73.8,352.5" stroke="#fcfcfb" stroke-width="2" fill="#e87ba4"/>
+<polygon points="227.5,441.4 233.8,430.2 221.2,430.2" stroke="#fcfcfb" stroke-width="2" fill="#e87ba4"/>
+<polygon points="375.0,452.9 381.2,441.6 368.8,441.6" stroke="#fcfcfb" stroke-width="2" fill="#e87ba4"/>
+<polygon points="522.5,447.7 528.8,436.5 516.2,436.5" stroke="#fcfcfb" stroke-width="2" fill="#e87ba4"/>
+<polygon points="670.0,446.1 676.2,434.9 663.8,434.9" stroke="#fcfcfb" stroke-width="2" fill="#e87ba4"/>
+<text x="680.0" y="103.2" font-size="12" font-weight="600" fill="#0b0b0b">649.6</text>
+<text x="680.0" y="137.4" font-size="12" font-weight="600" fill="#0b0b0b">391.5</text>
+<line x1="730" x2="754" y1="80" y2="80" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="742.0" cy="80.0" r="5" stroke="#fcfcfb" stroke-width="2" fill="#2a78d6"/>
+<text x="764" y="84" font-size="12.5" fill="#0b0b0b">Этап 3: Thread-Local</text>
+<line x1="730" x2="754" y1="106" y2="106" stroke="#eb6834" stroke-width="2"/>
+<rect x="737.0" y="101.0" width="10" height="10" rx="1.5" stroke="#fcfcfb" stroke-width="2" fill="#eb6834"/>
+<text x="764" y="110" font-size="12.5" fill="#0b0b0b">Этап 4: двойная буферизация</text>
+<line x1="730" x2="754" y1="132" y2="132" stroke="#1baf7a" stroke-width="2"/>
+<polygon points="742.0,125.8 748.2,137.0 735.8,137.0" stroke="#fcfcfb" stroke-width="2" fill="#1baf7a"/>
+<text x="764" y="136" font-size="12.5" fill="#0b0b0b">Этап 1: единый лок</text>
+<line x1="730" x2="754" y1="158" y2="158" stroke="#eda100" stroke-width="2"/>
+<polygon points="742.0,151.8 748.2,158.0 742.0,164.2 735.8,158.0" stroke="#fcfcfb" stroke-width="2" fill="#eda100"/>
+<text x="764" y="162" font-size="12.5" fill="#0b0b0b">Этап 1: пустой лок</text>
+<line x1="730" x2="754" y1="184" y2="184" stroke="#e87ba4" stroke-width="2"/>
+<polygon points="742.0,190.2 748.2,179.0 735.8,179.0" stroke="#fcfcfb" stroke-width="2" fill="#e87ba4"/>
+<text x="764" y="188" font-size="12.5" fill="#0b0b0b">Этап 2: шардированный лок</text>
+<line x1="730" x2="754" y1="210" y2="210" stroke="#52514e" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="764" y="214" font-size="12.5" fill="#0b0b0b">Этап 0: baseline</text>
+</svg>
