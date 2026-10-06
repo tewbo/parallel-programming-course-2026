@@ -25,7 +25,7 @@ public class DoubleBufferCollector implements MetricsCollector {
         while (true) {
             b = active;
             my.inside.set(b);
-            if (active == b || true) {
+            if (active == b) {
                 break;
             }
             my.inside.setRelease(-1);
